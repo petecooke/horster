@@ -9,4 +9,4 @@
 
 # Make sure your secret_key_base is kept private
 # if you're sharing your code publicly.
-Horster::Application.config.secret_key_base = '685be63ce686a563dc4d4cb9473b2ee4bbd829d1a8a89d8d352ed91f9c4c135e782ac1753aaec35cccbde65a5519d865fa9933b6f0346218e3759a22ecc6abc4'
+Horster::Application.config.secret_key_base = '295e6f23a98cb6b99acf4883e7e5afe0449073a58ade8ba6e1e49e28d0d7e3aa4f20c2067dbb30ddb8d3defbd12db42066035b569332ed4b5dbabe17764e4155'
