@@ -11,6 +11,6 @@ class Comment < ActiveRecord::Base
 	}
 
 	def humanized_rating
-		RATINGS.invert[self.rating]
+	  RATINGS.invert[self.rating]
 	end
 end
