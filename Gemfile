@@ -13,6 +13,7 @@ gem 'simple_form'
 gem 'devise'
 gem 'geocoder'
 gem "figaro"
+gem 'carrierwave'
 
 # Gemfile for Rails 3+, Sinatra, or Merb
 gem 'will_paginate', '~> 3.0.5'
