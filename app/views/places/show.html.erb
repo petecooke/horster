@@ -40,17 +40,17 @@
 </div>
 
 <div class="clear"></div>
-<%= simple_form_for @comment, :url => place_comments_path(@place) do |f| %>
+
+<!-- <%= simple_form_for @comment, :url => place_comments_path(@place) do |f| %>
 	<%= f.input :message %>
 	<%= f.input :rating, :as => :select, :collection => Comment::RATINGS %>
-
 	<%= f.submit "Add a Comment", :class => 'btn btn-primary' %>
-<% end %>
+<% end %> -->
 
 <!-- Button trigger modal -->
-<button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
-  Add a comment
-</button>
+<!-- <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+  Add a comment - 1
+</button> -->
 
 <!-- Modal -->
 <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
@@ -78,7 +78,7 @@
 	<h1 class="pull-left">Comments</h1>
 	<!-- Button trigger modal -->
 	<button class="btn btn-primary btn-lg pull-right" data-toggle="modal" data-target="#myModal">
-		Add a comment
+			Add a comment
 	</button>
 </div>
 
