@@ -13,9 +13,10 @@
 		<% if place.user.present? %>
 			<small><%= place.user.email %></small>
 		<% end %>
+		
 		<% if place.photos.present? %>
 			<div>
-				<%= place.photos.last.picture %>
+				<%= image_tag place.photos.last.picture %>
 			</div>
 		<% end %>
 
