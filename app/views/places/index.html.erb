@@ -13,6 +13,12 @@
 		<% if place.user.present? %>
 			<small><%= place.user.email %></small>
 		<% end %>
+		<% if place.photos.present? %>
+			<div>
+				<%= place.photos.last.picture %>
+			</div>
+		<% end %>
+
 		<% if place.comments.present? %>
 			<div class="col-xs-12">
 				<blockquote>
