@@ -56,7 +56,7 @@
 		
 		<% if place.photos.present? %>
 			<div>
-				<%= image_tag place.photos.last.picture %>
+				<%= image_tag place.photos.last.picture, :class => 'img-responsive' %>
 			</div>
 		<% end %>
 
